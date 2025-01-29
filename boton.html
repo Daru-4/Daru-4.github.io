@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página de Entrada</title>
+    <style>
+        /* Estilos generales */
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: url('fondo.jpg') center/cover no-repeat;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        /* Contenedor de la pantalla de entrada */
+        .entrada {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 30px;
+            border-radius: 15px;
+        }
+
+        /* Estilos del botón */
+        .btn-entrar {
+            background-color: red;
+            color: white;
+            padding: 15px 30px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        .btn-entrar:hover {
+            background-color: darkred;
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <div class="entrada">
+        <h1>Bienvenidos a Dunk Dynasty</h1>
+        <p>Tu portal de baloncesto favorito 🏀</p>
+        <button class="btn-entrar" onclick="window.location.href='index.html'">Entrar</button>
+    </div>
+
+</body>
+</html>
